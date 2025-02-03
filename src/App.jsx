@@ -38,7 +38,7 @@ function startOnboarding() {
 const App = () => {
   return (
     <div>
-        <button onClick={startOnboarding}>Start KYC</button>
+        <button onClick={startOnboarding}>Driver Onboarding</button>
     </div>
   )
 }
