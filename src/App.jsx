@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './App.css';
 function startOnboarding() {
     const accessToken = "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6ImNmeDlpMiIsImhhc2giOiIxNzI4NWYyZGI3MDRlYWMzZjU5M2I0OTQyZjQ1YzFlMDMzYTdkM2ViYzRjNzI2ZDY4YjBlYzllNzQ2NWEyYjQ2IiwiaWF0IjoxNzM3ODcwMzg2LCJleHAiOjE3Mzc5MTM1ODYsImp0aSI6IjcyNjEzMDA3LTlmNjgtNDRiYy1iNzc0LWFlOGY5M2RhMjUzYiJ9.JLRwFxxDSapef-UDR1eErrDwwiRHEjmCembGXIe74fkRx24dGUlzmS_59VoCAo2qGX-mclWLEgiQAr-gzT_GFux3cWKmGHNKGafjiB3arMW5J4i0zqRDA5ceoktNtTAu9qy1gvamnjhKIeCovlXuMQfZKvNbG_aNbRCXUFSb_p4";
     const workflowId = "kycFlow";
