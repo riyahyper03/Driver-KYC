@@ -38,11 +38,15 @@ function startOnboarding() {
 }
 const App = () => {
   return (
-    <div>
-        <button onClick={startOnboarding}>Driver Onboarding</button>
+    <div id="root">
+      <h1>Driver Onboarding</h1>
+      <button onClick={startOnboarding}>Start KYC</button>
+      <p className="read-the-docs">
+        Click on the button to start the KYC process.
+      </p>
     </div>
-  )
-}
+  );
+};
 export default App
 
 
